@@ -13,3 +13,14 @@ Business paketi icerisine sadece is yapan parcalari yazmak, logicTest paketi ice
 Not_Sonraki _Asama: Herkes kendi isini bitirdikten sonra develop a birlestirmek isin merge request yaratmalidir. Bu asamada diger kisi kodu incelemeli ve varsa uyarini yapmalidir.
 
 
+Kodu indirmek icin:
+1- Bilgisayarda git yuklu olmalidir.
+2- Consol ekrani acilmali ve calismak istedigin directory ye gitmelisin (ornegin: C:\Users\mycomputer\workspace>)
+3- git clone https://github.com/onderozer/workOnTest.git <directory altinda ilgili dosyalar kopyalanacaktir>
+4- git status  <hangi branch de oldugunu ve varsa deisiklikleri gosterir>
+
+yapilan degisiklikleri yuklemek icin:
+navigate to directory
+1- git add .
+2-  git commit -m "<commit mesaji>"
+3- git push
